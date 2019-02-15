@@ -439,7 +439,7 @@ module Asciidoctor::LaTeX
       # line_array += ["<link rel='stylesheet' type='text/css'  href='jsxgraph.css' />"]
 
       line_array += ["<link rel='stylesheet' type='text/css'  href='http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css' />"]
-      line_array += ['<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js"></script>']
+      line_array += ['<script type="text/javascript" src="//cdnjs.cloudflare.padeoe.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js"></script>']
       line_array += ["<script src='http://jsxgraph.uni-bayreuth.de/distrib/GeonextReader.js' type='text/javascript'></script>"]
       line_array += ["<div id='#{attrs['box']}' class='jxgbox' style='width:" + "#{attrs['width']}" + "px; height:" + "#{attrs['height']}" +"px;'></div>"]
       line_array += ['<script type="text/javascript">']
