@@ -1594,7 +1594,7 @@ Opal.modules["asciidoctor/converter/html5"] = function(Opal) {
           } else {
           asset_uri_scheme = "" + (asset_uri_scheme) + ":"
         };
-        cdn_base = "" + (asset_uri_scheme) + "//cdnjs.cloudflare.com/ajax/libs";
+        cdn_base = "" + (asset_uri_scheme) + "//cdnjs.cloudflare.padeoe.com/ajax/libs";
         linkcss = ((($a = $rb_ge(node.$safe(), (($scope.get('SafeMode')).$$scope.get('SECURE')))) !== false && $a !== nil && $a != null) ? $a : (node['$attr?']("linkcss")));
         result['$<<']("<!DOCTYPE html>");
         lang_attribute = (function() {if ((($a = (node['$attr?']("nolang"))) !== nil && $a != null && (!$a.$$is_boolean || $a == true))) {
@@ -1621,7 +1621,7 @@ Opal.modules["asciidoctor/converter/html5"] = function(Opal) {
         result['$<<']("<title>" + (node.$doctitle($hash2(["sanitize", "use_fallback"], {"sanitize": true, "use_fallback": true}))) + "</title>");
         if ((($a = $scope.get('DEFAULT_STYLESHEET_KEYS')['$include?'](node.$attr("stylesheet"))) !== nil && $a != null && (!$a.$$is_boolean || $a == true))) {
           if ((($a = (webfonts = node.$attr("webfonts"))) !== nil && $a != null && (!$a.$$is_boolean || $a == true))) {
-            result['$<<']("<link rel=\"stylesheet\" href=\"" + (asset_uri_scheme) + "//fonts.googleapis.com/css?family=" + ((function() {if ((($a = webfonts['$empty?']()) !== nil && $a != null && (!$a.$$is_boolean || $a == true))) {
+            result['$<<']("<link rel=\"stylesheet\" href=\"" + (asset_uri_scheme) + "//fonts.googleapis.padeoe.com/css?family=" + ((function() {if ((($a = webfonts['$empty?']()) !== nil && $a != null && (!$a.$$is_boolean || $a == true))) {
               return "Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"
               } else {
               return webfonts
@@ -16344,7 +16344,7 @@ Opal.modules["asciidoctor/latex/converter"] = function(Opal) {
           attrs['$[]=']("height", 450)};
         line_array = ["\n+++\n"];
         line_array = $rb_plus(line_array, ["<link rel='stylesheet' type='text/css'  href='http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css' />"]);
-        line_array = $rb_plus(line_array, ["<script type=\"text/javascript\" src=\"//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js\"></script>"]);
+        line_array = $rb_plus(line_array, ["<script type=\"text/javascript\" src=\"//cdnjs.cloudflare.padeoe.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js\"></script>"]);
         line_array = $rb_plus(line_array, ["<script src='http://jsxgraph.uni-bayreuth.de/distrib/GeonextReader.js' type='text/javascript'></script>"]);
         line_array = $rb_plus(line_array, [$rb_plus($rb_plus($rb_plus($rb_plus("<div id='" + (attrs['$[]']("box")) + "' class='jxgbox' style='width:", "" + (attrs['$[]']("width"))), "px; height:"), "" + (attrs['$[]']("height"))), "px;'></div>")]);
         line_array = $rb_plus(line_array, ["<script type=\"text/javascript\">"]);
